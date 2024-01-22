@@ -5,7 +5,6 @@
 body {
     width: 1440px;
     margin: 0 auto;
-    font-family: ;
     background-color: #191919;
 }
 .container {
@@ -25,23 +24,18 @@ body {
     font-size: 17px;
     font-weight: 400;
 }
-.menu_logo span {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-}
 .menu_links ul {
     display: flex;
     list-style: none;
 }
 .menu_links li {
-    margin-left: 10px;
+    padding-left: 10px;
 }
 .menu_links a {
     text-decoration: none;
     color: #fff;
     padding: 20px 0 20px 20px;
     font-size: 17px;
-    font-weight: 400;
 }
 .menu_links a:hover {
     color:#118DA8;
@@ -49,13 +43,11 @@ body {
 }
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 .card {
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
 }
 .my_image img {
@@ -66,7 +58,6 @@ header {
 .text span {
     font-size: 70px;
     color: #fff;
-    font-weight: 400;
 }
 .social {
     padding-top: 30px;
@@ -79,30 +70,34 @@ header {
     padding-right: 20px;
     color: #fff;
 }
+.social i:hover {
+    color: #118DA8;
+    transition: 0.3s;
+}
 .title_episodes {
     display: flex;
     justify-content: space-between;
     padding: 50px 0 50px 0;
 }
 .latest_episode span {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
     font-size: 64px;
     color: #fff;
 }
     
 .button_episodes button {
     border: none;
-    font: inherit;
-    color: inherit;
     background-color: #118DA8;
     cursor: pointer;
     padding: 15px;
     border-radius: 7px;
     color: #fff;
 }
+.button_episodes button:hover {
+    color: black;
+    background-color: #fff;
+    transition: 0.3s;
+}
 .cards {
-
     border-radius: 15px;
 }
 .item {
@@ -123,8 +118,6 @@ header {
 }
 .button_1 button {
     border: none;
-    font: inherit;
-    color: inherit;
     background-color: #191919;
     cursor: pointer;
     padding: 3px 15px;
@@ -142,24 +135,136 @@ header {
 }
 .title_text h3 {
     margin: 0 0 35px 0;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
     font-size: 64px;
 }
 .title_text span {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
     font-size: 22px;
     opacity: 0.3;
 }
 .button_2 button {
+    color: #fff;
     border: none;
-    font: inherit;
-    color: inherit;
     background-color: #118DA8;
     cursor: pointer;
     padding: 15px;
     border-radius: 7px;
 }
+.button_2 button:hover {
+color: black;
+background-color: #fff;
+transition: 0.3s;
+}
+.subscribe_container {
+    background-color: #000000;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+.subscribe {
+    padding: 60px 0 123px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.subscribe_text h3 {
+    margin: 0;
+    color: #fff;
+    font-size: 72px;
+}
+.subscribe_text span{
+    font-size: 18px;
+    color: #118DA8;
+}
+.subscribe_form {
+    padding-right: 40px;
+}
 
+.subscribe_form fieldset {
+    border: 0;
+    width: 522px;
+    height: 82px    
+}
 
+.subscribe_form fieldset input {
+    width: 522px;
+    height: 82px;
+    padding: 0 0 0 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    background-color: #191919;
+    border: none;
+    color: #fff;
+}
+.subscribe_form button {
+    border: none;
+    color: #fff;
+    background-color: #118DA8;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 7px;
+}
+.subscribe_form button:hover {
+    background-color: #fff;
+    transition: 0.3s;
+    color: #000000;
+}    
+.subscribe_form :placeholder-shown {
+    padding-left: 20px;
+}
+.reviews {
+    display: flex;
+    justify-content: space-between;
+}
+.reviews_container {
+    width: 423px;
+    height: 321px;
+    background-color: #000000;
+    border-radius: 15px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.item_reviews {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 0 50px;
+}
+.stars i {
+    color: #FCFF51;
+    font-size: 17px;
+    padding-bottom: 21px;
+}
+.comment {
+    font-size: 36px;
+    padding-bottom: 21px;
+}
+.name {
+    font-size: 24px;
+    color: #FFFFFFB2;
+}
+.footer_container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.social_footer ul {
+    padding: 0;
+}
+.footer_menu_links ul {
+    display: flex;
+    list-style: none;
+}
+.start a {
+    color: #fff;
+    font-size: 18px;
+}
+.footer_menu_links li {
+    margin-left: 10px;
+}
+.footer_menu_links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 0 20px 20px;
+    font-size: 17px;
+}
+.footer_menu_links a:hover {
+    color:#118DA8;
+    transition: 0.3s;
+}
